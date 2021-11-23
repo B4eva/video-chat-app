@@ -8,6 +8,7 @@ import (
 	// "github.com/gorilla/websocket"
 )
 
+//All rooms is the global hashmap for the server
 var AllRooms RoomMap
 
 //CreateRoomRequestHandler Create a Room and return roomID
